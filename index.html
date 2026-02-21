@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Work Calendar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h2>First Work Calendar</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>All</th>
+        <th>1st</th>
+        <th>2nd</th>
+        <th>3rd</th>
+        <th>4th</th>
+        <th>5th</th>
+      </tr>
+    </thead>
+    <tbody id="table1"></tbody>
+  </table>
+
+  <br>
+
+  <label><input type="checkbox"> Half Working Day</label>
+  <label><input type="checkbox"> Half Weekend</label>
+
+  <br><br>
+
+  <button onclick="save()">Save</button>
+  <button onclick="clearTable('table1')">Cancel</button>
+
+  <hr><br>
+
+  <h2>Second Work Calendar</h2>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Day</th>
+        <th>All</th>
+        <th>1st</th>
+        <th>2nd</th>
+        <th>3rd</th>
+        <th>4th</th>
+        <th>5th</th>
+      </tr>
+    </thead>
+    <tbody id="table2"></tbody>
+  </table>
+
+  <br>
+
+  <label><input type="checkbox"> Half Working Day</label>
+  <label><input type="checkbox"> Half Weekend</label>
+
+  <br><br>
+
+  <button onclick="save()">Save</button>
+  <button onclick="clearTable('table2')">Cancel</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
